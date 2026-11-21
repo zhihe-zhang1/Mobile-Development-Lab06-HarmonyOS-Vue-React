@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "网络请求、状态处理、Preferences 数据持久化"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "实验05入口"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "实验05 网络与持久化"
+    }
+  ]
+}

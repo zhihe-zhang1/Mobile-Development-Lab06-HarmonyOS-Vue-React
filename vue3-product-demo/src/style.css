@@ -1,0 +1,42 @@
+:root { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; color: #1d3027; background: #f4f7f2; font-synthesis: none; }
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 300px; }
+button, input { font: inherit; }
+button { cursor: pointer; border: none; background: #245643; color: white; padding: 10px 15px; border-radius: 12px; font-weight: 600; }
+button:hover { filter: brightness(1.08); }
+button:focus-visible, input:focus-visible { outline: 3px solid #76b49c; outline-offset: 2px; }
+h1,h2,p { margin: 0; }
+h1 { font-size: clamp(23px, 5vw, 31px); margin: 6px 0; }
+h2 { font-size: 17px; margin-bottom: 8px; }
+p { line-height: 1.55; }
+.shell { width: min(100%, 550px); padding: 22px 16px 32px; margin: 0 auto; }
+.hero { border-radius: 20px; background: #245643; color: white; padding: 22px; margin-bottom: 18px; }
+.hero p { color: #d8ecdf; font-size: 13px; }
+.eyebrow { letter-spacing: 2px; font-size: 11px; text-transform: uppercase; }
+.panel { background: white; border: 1px solid #e2e9e3; border-radius: 17px; padding: 15px; }
+.controls { margin-bottom: 12px; }
+.actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.hint { color: #63766a; font-size: 12px; margin-top: 10px; }
+.tabs { display: flex; margin: 12px 0 16px; border-radius: 13px; background: white; padding: 5px; gap: 5px; }
+.tabs button { flex: 1; background: transparent; color: #667b70; }
+.tabs button.selected { background: #245643; color: white; }
+.status { text-align: center; padding: 32px 16px; display: flex; align-items: center; flex-direction: column; gap: 10px; }
+.status p { color: #617367; }
+.error { color: #b3432e; }
+.spinner { height: 25px; width: 25px; border-radius: 50%; border: 3px solid #cee2d4; border-top-color: #245643; animation: spin .65s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.search-label { display: block; font-size: 12px; color: #5d6b62; margin: 12px 0 6px; }
+input { background: white; color: #1d3027; padding: 13px 14px; border: 1px solid #dde7dd; border-radius: 12px; width: 100%; }
+.count { font-size: 13px; color: #687b70; margin: 12px 0; text-align: right; }
+.product { margin-bottom: 9px; display: flex; align-items: center; gap: 8px; }
+.item-main { display: flex; flex-direction: column; gap: 6px; padding: 3px 0; border-radius: 0; background: transparent; color: #1d3027; text-align: left; flex: 1; min-width: 0; }
+.item-main strong { font-size: 16px; }
+.item-main small { font-size: 12px; font-weight: 400; color: #667a6e; }
+.item-side { display: flex; gap: 6px; align-items: flex-end; flex-direction: column; }
+.item-side b, .price { color: #a14d2d; }
+.outline { padding: 7px 10px; border: 1px solid #245643; background: white; color: #245643; font-size: 12px; }
+.detail { display: flex; flex-direction: column; align-items: flex-start; gap: 16px; padding: 25px 20px; }
+.detail h2 { font-size: 24px; }
+.detail .price { font-size: 20px; font-weight: 700; }
+.text-button { background: transparent; color: #245643; padding: 0; }
+footer { text-align: center; color: #728679; font-size: 12px; margin-top: 25px; }
