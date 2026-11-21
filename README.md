@@ -67,6 +67,4 @@ Vue 和 React 版本使用相同的本地商品数据和模拟异步方法，方
 | React：商品列表 | ![React 商品列表](screenshots/03-react-list.png) |
 | React：商品详情 | ![React 商品详情](screenshots/04-react-detail.png) |
 | React：刷新后保留收藏 | ![React 收藏持久化](screenshots/05-react-persistence.png) |
-| ArkTS：实验四路由界面参考图 | ![ArkTS 路由参考](screenshots/06-arkts-lab04-reference.jpg) |
-
-*ArkTS 截图来自前一实验的路由商品界面，作为原生技术栈的交互参考；实验六的异构运行截图由 Vue 3 和 React 项目提供。*
+| ArkTS：商品列表 | ![ArkTS 商品列表](screenshots/06-arkts.jpg) |
